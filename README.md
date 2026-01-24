@@ -14,11 +14,11 @@ Antes de começar, garanta que os seguintes sistemas estejam instalados em seu c
 * <b>Obs. 3:</b> Para verificar as versões do git, Node.js e NPM instaladas em seu computador, execute o comando git --version && node --version && npm --version no seu terminal de linha de comando.
 
 ## Clonando o projeto 🐑
-Abra o navegador, acesse a URL https://github.com/brutastee55/desafio-qa, clique no botão Code, escolha uma opção de clone (HTTPS ou SSH), copie o link de clone do projeto, e em seu terminal de linha de comando (em uma pasta onde você armazene seus projetos de software), execute o comando <b>git clone [cole-o-link-copiado-aqui].</b>
+Abra o navegador, acesse a URL https://github.com/brutastee55/prova-fbm, clique no botão Code, escolha uma opção de clone (HTTPS ou SSH), copie o link de clone do projeto, e em seu terminal de linha de comando (em uma pasta onde você armazene seus projetos de software), execute o comando <b>git clone [cole-o-link-copiado-aqui].</b>
 
-Após o clone do projeto, acesse o diretório recém clonado (ex.: cd desafio-qa).
+Após o clone do projeto, acesse o diretório recém clonado (ex.: cd prova-fbm).
 
-Dentro do diretório desafio-qa você terá os sub-diretórios .git/ (diretório oculto), cypress/, e os arquivos .gitignore (arquivo oculto), cypress.json, package-lock.json, package.json e README.md.
+Dentro do diretório TESTE você terá os sub-diretórios .git/ (diretório oculto), cypress/, e os arquivos .gitignore, cypress.config, package-lock.json, package.json, README.md e TEST_PLAN.md.
 
 ## Instalação das dependências de desenvolvimento
 Com o projeto clonado a partir do GitHub, é hora de instalarmos suas depedências de desenvolvimento.
@@ -26,17 +26,18 @@ Com o projeto clonado a partir do GitHub, é hora de instalarmos suas depedênci
 Visto que tais dependências já estão listadas no arquivo package.json, basta executar o comando <b>npm install</b> na raiz do projeto.
 
 ## Executando os testes
-Estando na raiz do projeto Execute o comando <b>npm run cypress:open</b> para abrir o cypress, caso queira rodar no seu terminal de linha de comando basta executar <b>npm run cypress:run</b>
+Estando na raiz do projeto Execute o comando <b>npm run cypress:open</b> para abrir o cypress, caso queira rodar no seu terminal de linha de comando basta executar <b>npm run test:report</b>
 
 ## Evidencias
-No fim da execução dos testes será criado um relatório que fica na pasta <b>cypress/reports/MultipleReport</b> basta abrir o arquivo <b>index.html</b> para ter o detalhe da automação 
+No fim da execução dos testes será criado um relatório que fica na pasta <b>cypress/reports/cucumber-html</b> basta abrir o arquivo <b>index.html</b> para ter o detalhe da automação 
 
 ## :wrench: Tecnologias utilizadas
-ºNode.js v16.17.0\
-ºNPM 8.15.0\
-ºCypress-cucumber-preprocessor 4.3.1\
-ºCypress 3.6.0\
-ºMultiple-cucumber-html-reporter 3.0.1
+ºNode.js v22.15.0\
+ºNPM 10.9.2\
+º@badeball/cypress-cucumber-preprocessor 24.0.0\
+º@bahmutov/cypress-esbuild-preprocessor 2.2.8\
+ºCypress 15.9.0\
+ºMultiple-cucumber-html-reporter 3.9.3
 
 
 ## :handshake: Colaboradores
