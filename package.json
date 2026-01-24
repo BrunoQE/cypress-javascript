@@ -1,0 +1,38 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "open:cypress": "npx cypress open",
+    "report:cucumber": "node scripts/generate-cucumber-report.js",
+    "test:report": "npm run test && npm run report:cucumber"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "@cypress/xpath": "^2.0.3",
+    "@faker-js/faker": "^10.2.0",
+    "cypress": "^15.9.0",
+    "mochawesome-report-generator": "^6.3.2",
+    "multiple-cucumber-html-reporter": "^3.9.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "cypress/e2e/**/**/*.js"
+    ],
+    "json": {
+      "enabled": true,
+      "output": "reports/cucumber-json/cucumber-report.json"
+    }
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.1.0"
+  }
+}
