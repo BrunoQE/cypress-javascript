@@ -45,7 +45,7 @@ No fim da execução dos testes será criado um relatório que fica na pasta <b>
   <tr>
     <td align="center">
       <a href="https://github.com/BrunoQE">
-        <img src="https://gitlab.com/uploads/-/system/user/avatar/4485003/avatar.png?width=400" width="100px;" alt="Foto de Bruno Souza/><br>
+        <img src="https://avatars.githubusercontent.com/u/260292096?s=400&u=1646f68e0e95320cb32a23dad1fba79513093925&v=4" width="100px;" alt="Foto de Bruno Souza/><br>
         <sub>
           <b>Bruno Souza</b>
         </sub>
