@@ -14,11 +14,11 @@ Antes de começar, garanta que os seguintes sistemas estejam instalados em seu c
 * <b>Obs. 3:</b> Para verificar as versões do git, Node.js e NPM instaladas em seu computador, execute o comando git --version && node --version && npm --version no seu terminal de linha de comando.
 
 ## Clonando o projeto 🐑
-Abra o navegador, acesse a URL https://github.com/brutastee55/prova-fbm, clique no botão Code, escolha uma opção de clone (HTTPS ou SSH), copie o link de clone do projeto, e em seu terminal de linha de comando (em uma pasta onde você armazene seus projetos de software), execute o comando <b>git clone [cole-o-link-copiado-aqui].</b>
+Abra o navegador, acesse a URL https://github.com/BrunoQE/cypress-javascript.git, clique no botão Code, escolha uma opção de clone (HTTPS ou SSH), copie o link de clone do projeto, e em seu terminal de linha de comando (em uma pasta onde você armazene seus projetos de software), execute o comando <b>git clone [cole-o-link-copiado-aqui].</b>
 
-Após o clone do projeto, acesse o diretório recém clonado (ex.: cd prova-fbm).
+Após o clone do projeto, acesse o diretório recém clonado (ex.: cd cypress-javascript).
 
-Dentro do diretório TESTE você terá os sub-diretórios .git/ (diretório oculto), cypress/, e os arquivos .gitignore, cypress.config, package-lock.json, package.json, README.md e TEST_PLAN.md.
+Dentro do diretório cypress-javascript você terá os sub-diretórios .git/ (diretório oculto), cypress/, e os arquivos .gitignore, cypress.config, package-lock.json, package.json, README.md e TEST_PLAN.md.
 
 ## Instalação das dependências de desenvolvimento
 Com o projeto clonado a partir do GitHub, é hora de instalarmos suas depedências de desenvolvimento.
