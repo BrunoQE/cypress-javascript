@@ -40,7 +40,7 @@ No fim da execução dos testes será criado um relatório que fica na pasta <b>
 ºMultiple-cucumber-html-reporter 3.9.3
 
 
-## :handshake: Colaboradores
+## :handshake: Responsavel
 <table>
   <tr>
     <td align="center">
